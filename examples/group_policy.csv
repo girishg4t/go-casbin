@@ -1,0 +1,6 @@
+p, admin, /project, *
+p, admin, /channel, *
+p, user, /channel, GET
+p, user, /project, GET
+g, alice, admin
+g, bob, user
